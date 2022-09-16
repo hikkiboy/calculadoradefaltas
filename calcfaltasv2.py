@@ -54,8 +54,8 @@ while option != 0:
             DiasPorFalta = HorasPorFalta / 3
             ConverteDias =  (Atraso / 3)
             FaltasFinal = float( FaltasMax - Falt - ConverteDias)
-            SobraHoras = float ( Atraso % 3 )
-            SobraAulas = int (Atraso / 3)
+            SobraHoras =  int( FaltasMax % 3 )
+            SobraAulas = int ( Atraso / 3)
             SobraHoraemDia = int ( SobraHoras / 3 ) 
 
             if isinstance ( ConverteDias, float):
