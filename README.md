@@ -4,3 +4,4 @@ Calculadora para faltas, inclui faltas e dias completos ( NÃO CONFIE 100% NESSE
 
 Esse programa é um arquivo .exe, caso seu navegador estiver bloqueando, clique em autorizar o download
 Caso o windowns bloqueie o acesso ao programa clique em "mais opções" e vá até abrir mesmo assim
+Caso o programa te der a mensagem "0 dias e x horas", você excedeu o limite
