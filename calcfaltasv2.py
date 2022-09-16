@@ -61,14 +61,14 @@ while option != 0:
             if isinstance ( ConverteDias, float):
                 AulasMax =  int (SobraHoraemDia + FaltasFinal)
                 Sobrasparte1 = int (FaltasMax - AulasMax)
-                if DiasPorFalta and AulasMax < Falt:
+                if DiasPorFalta < Falt:
                     print('Vc ja excedeu o limite de faltas')
                     time.sleep(2)
                     quit
                 else:
                     print('você pode faltar {} dias e atrasar {} horas' .format(AulasMax, SobraHoras))
+                    time.sleep(3)
             else:
-                print ('vc pode faltar {} dias e atrasar {} horas' .format(FaltasFinal, SobraHoras))
                 quit
            
 
